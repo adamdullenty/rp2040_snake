@@ -2,11 +2,13 @@
 
 Classic Snake clone on a 128×64 OLED.
 
+## Demo
+
+[![Gameplay demo](https://img.youtube.com/vi/dWQM8qyKAyg/hqdefault.jpg)](https://www.youtube.com/watch?v=dWQM8qyKAyg)
+
 ## Screenshot (mockup)
 
 ![Gameplay](docs/screenshot.png)
-
-_(TODO: Real screenshot + video)_
 
 
 ## Hardware
@@ -39,3 +41,9 @@ Install via Arduino Library Manager:
 | **C** | Turn right |
 | **B** | Pause / resume (restart from title or game over) |
 | **BOOT** | Restart when paused or game over |
+
+## Setup
+
+Feather RP2040 with OLED FeatherWing stacked, connected over USB.
+
+![Feather RP2040 + OLED FeatherWing](docs/setup.png)
